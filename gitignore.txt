@@ -11,9 +11,6 @@ front_end_project/.pnp.js
 # testing
 front_end_project/coverage
 
-# production
-front_end_project/build
-
 # misc
 front_end_project/.DS_Store
 front_end_project/.env.local
