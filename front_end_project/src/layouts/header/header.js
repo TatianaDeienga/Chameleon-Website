@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./images/Logo Hi-Res.png";
+import logo from "./images/Logo_No_Background.png";
 import profile from "./images/profile.jpg";
 import { Nav, Navbar, Container, Form, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
@@ -44,6 +44,9 @@ function Header() {
             </Nav.Link>
             <Nav.Link className="text-white ml-3 mt-2" href="/iotResources">
               RESOURCES
+            </Nav.Link>
+            <Nav.Link className="text-white ml-3 mt-2" href="/login">
+              LOGIN
             </Nav.Link>
             <Form className="d-flex">
               <Form.Control
